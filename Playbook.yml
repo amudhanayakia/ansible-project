@@ -1,0 +1,9 @@
+---
+- 
+ name: Set Firewall Configuration
+ hosts: all
+ tasks: 
+    - name: Display resolv.conf contents
+      command: cat /etc/resolv.conf
+      register: message
+    
