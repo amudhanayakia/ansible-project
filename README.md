@@ -14,7 +14,7 @@ $sudo ansible all -m ping -i flag1.py
 
 $./flag1.py --list
 
-$sudo ansible-playbook Playbook.yml -i flag1.py
+$sudo ansible-playbook Playbook.yml -i flag1.py --verbose
 
 Rename hosts_bigfile.csv to hosts.csv and run the following commands
 
